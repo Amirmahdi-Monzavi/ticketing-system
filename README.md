@@ -61,7 +61,7 @@ GRANT ALL PRIVILEGES ON ticketing_system_db. * TO 'admin'@'localhost';
 
 ### Backend Setup:
 
-1. Navigate to the backend/src directory.
+1. Navigate to the backend directory.
 2. Run `npm install` to install dependencies.
 3. Ensure that the MySQL server is running and accessible.
 4. Create a `.env` file with database credentials and a JWT secret.
@@ -74,7 +74,8 @@ DB_DATABASE=ticketing_system_db
 JWT_SECRET=7b8e2f1a9c4d3e5b0a6f8c7d2e1b4a9e
 ```
 
-5. Run `node app.js` to start the backend server.
+5. Navigate to the backend/src directory.
+6. Run `node app.js` to start the backend server.
 
 ## Usage
 
